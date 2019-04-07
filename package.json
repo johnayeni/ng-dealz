@@ -1,0 +1,14 @@
+{
+  "name": "ng-dealz-app",
+  "version": "1.0.0",
+  "description": "A web app which shows the top deals from stores in nigerian online stores",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve ."
+  },
+  "author": "Yimika and John Ayeni",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^10.1.2"
+  }
+}
