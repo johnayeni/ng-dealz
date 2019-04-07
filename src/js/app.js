@@ -30,7 +30,7 @@ const displayDeals = (deals, container) => {
 };
 
 const fetchKongaDeals = async () => {
-  const fetchUrl = 'http://ng-dealz-webscrapper.herokuapp.com/get-deals';
+  const fetchUrl = 'https://ng-dealz-webscrapper.herokuapp.com/get-deals';
   const response = await fetch(fetchUrl);
   const deals = await response.json();
   displayDeals(deals, 'konga-deals');
